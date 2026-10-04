@@ -1,4 +1,12 @@
-# first-small-project
-this is my first git project 
-<br>
-Author --Poorvika I R 
+# Sales Performance Dashboard
+
+A Streamlit dashboard for exploring sales representative performance, quota attainment, and regional sales. Use the region filter to update the metrics and charts, then download the filtered report as CSV.
+
+## Setup
+
+```powershell
+python -m pip install -r requirements.txt
+python -m streamlit run app.py
+```
+
+The dashboard uses sample sales data defined in `app.py`.
